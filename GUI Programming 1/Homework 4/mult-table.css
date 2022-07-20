@@ -1,0 +1,129 @@
+/**
+ * Ethan Sourn
+ * 6/21/2022
+ * GUI Programming 1
+ * Homework 4: Using the jQuery Plugin/UI with Your Dynamic Table
+ * 
+ * mult-table.css holds all css stylings used to decorate the page
+ * Added stylings for error checking from jQuery messages, sliders, and tabbed interface
+
+/* Remove defaults spacing */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(218, 223, 225, 1);
+}
+#main {
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 26%;
+}
+header {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -25px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+div.form {
+    display: block;
+    text-align: center;
+}
+.form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+input {
+    width: 15%;
+}
+/* Submission button styling */
+input[type=submit] {
+    width: 100%;
+    background-color: #2d742f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+table {
+    margin: auto;
+    text-align: center;
+}
+th, td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+/* Top row styling for table */
+table tr:first-of-type {
+    background-color: #3A5743;
+    color: white;
+}
+/* Table styling to achieve striped color look */
+tr:nth-child(even) {
+    background-color: #64997562;
+}
+/* Leftmost column styling for table*/
+tbody tr td:nth-of-type(1) {
+    background-color: #3A5743;
+    color: white;
+}
+td:hover {
+    background-color: lightgray;
+}
+#scrollable {
+    overflow: auto;
+    height: 300px;
+}
+/* Styling for HW 4 Below
+Error messaging styling for jQuery messages */
+label.error {
+    color: red;
+    font-style: italic;
+}
+/* Styling for tabs, default themes provided by https://jesseheines.com/~heines/91.461/91.461-2015-16f/461-assn/jQueryUI1.8_Ch03_TabsWidget.pdf*/
+#tabs {
+    width: 400px; 
+    padding: 5px; 
+    border: 1px solid #636363;
+    background: #c2c2c2 none;
+    float: right;
+    margin-top:-600px;
+    margin-right: 100px;
+    overflow: auto;
+}
+.ui-widget-header {
+    border: 0; 
+    background: #c2c2c2 none; 
+    font-family: Georgia;
+    width: 400px;
+}
+#tabs .ui-widget-content {
+    border: 1px solid #aaa; 
+    background: #fff none; 
+    font-size: 80%;
+    overflow: auto;
+}
+.ui-state-default, .ui-widget-content .ui-state-default {
+    border: 1px solid #636363; 
+    background: #a2a2a2 none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active {
+    border: 1px solid #aaa; 
+    background: #fff none;
+}

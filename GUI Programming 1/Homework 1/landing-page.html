@@ -1,0 +1,129 @@
+<!--
+File: landing-page.html
+GUI Assignment: Set up, Github, and First Web Page
+Ethan Sourn, UMass Lowell Computer Science, ethan_sourn@student.uml.edu
+Copyright (C) 2022 by Ethan. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated on May 25, 2022 at 4:33 PM
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" type='text/css' href="landing-page.css">
+      <script>
+          //  Function to toggle between image and text onclick
+          function display(id, id2) {
+              var div = document.getElementById(id);
+              div.style.visibility = div.style.visibility == "hidden" ? "visible" : "hidden";
+          }
+      </script>
+      <title>GUI 1 Homework 1</title>
+      <section id="grid-container">
+          <header>
+            <p><a href="http://jigsaw.w3.org/css-validator/check/referer"><img style="border:0;width:88px;height:31px"
+              src="http://jigsaw.w3.org/css-validator/images/vcss" alt="Valid CSS!" /></a>
+            </p>
+            <h1>Favorite Movies of 2022 (so far)</h1>
+          </header>
+          <div id="left">
+          <button onclick="display('img1')"></button>
+            <div id="img1"><img src="imgs/movie1.jpg" alt="Everything Everywhere All At Once"></div>
+            <div class="movie-text">
+                <div class="inner">
+                    <h3>Everything Everywhere All At Once</h3>
+                    <h4>R 2022 Sci-fi/Adventure 2h 19m</h4>
+                    <h3>Director</h3><p>Daniel Kwan, Daniel Scheinert</p>
+                    <h3>Box office</h3><p>$61.1 million</p>
+                    <table style="width:75%">
+                      <tr>
+                          <th>IMDb</th>
+                          <th>Rotten Tomatoes</th>
+                          <th>Metacritic</th>
+                          <th>Me</th>
+                      </tr>
+                      <tr>
+                          <td>8.5/10</td>
+                          <td>95%</td>
+                          <td>81%</td>
+                          <td>&#9733; &#9733; &#9733; &#9733; &#9733;</td>
+                      </tr>
+                    </table>
+                    <h3>Summary</h3>
+                    <p>When an interdimensional rupture unravels reality, an unlikely hero must 
+                        channel her newfound powers to fight bizarre and bewildering dangers from 
+                        the multiverse as the fate of the world hangs in the balance.
+                    </p>
+                </div>
+            </div>
+            <div class ="link"><a href="https://www.google.com/search?q=everything+everywhere+all+at+once+showtimes">Where to watch?</a></div>
+          </div>
+          <div id="main">
+            <button onclick="display('img2')"></button>
+            <div id="img2"><img src="imgs/movie2.jpg" alt="The Batman"></div>
+            <div class="movie-text">
+                <div class="inner">
+                    <h3>The Batman</h3>
+                    <h4>PG-13 2022 Action/Adventure 2h 56m</h4>
+                    <h3>Director</h3><p>Matt Reeves</p>
+                    <h3>Box office</h3><p>$768.5 million</p>
+                    <table style="width:75%">
+                      <tr>
+                          <th>IMDb</th>
+                          <th>Rotten Tomatoes</th>
+                          <th>Metacritic</th>
+                          <th>Me</th>
+                      </tr>
+                      <tr>
+                          <td>8/10</td>
+                          <td>85%</td>
+                          <td>72%</td>
+                          <td>&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                      </tr>
+                    </table>
+                    <h3>Summary</h3>
+                    <p>Batman ventures into Gotham City's underworld when a sadistic killer leaves 
+                        behind a trail of cryptic clues. As the evidence begins to lead closer to home and 
+                        the scale of the perpetrator's plans become clear, he must forge new relationships, 
+                        unmask the culprit and bring justice to the abuse of power and corruption that has 
+                        long plagued the metropolis.
+                    </p>
+                 </div>
+            </div>
+            <div class ="link"><a href="https://www.google.com/search?q=the+batman+where+to+watch">Where to watch?</a></div>
+          </div>
+          <div id="right">
+            <button onclick="display('img3')"></button>
+            <div id="img3"><img src="imgs/movie3.jpg" alt="The Northman"></div>
+            <div class="movie-text">
+                <div class="inner">
+                    <h3>The Northman</h3>
+                    <h4>R 2022 Adventure/Action 2h 17m</h4>
+                    <h3>Director</h3><p>Robert Eggers</p>
+                    <h3>Box office</h3><p>$63.5 million</p>
+                    <table style="width:75%">
+                        <tr>
+                          <th>IMDb</th>
+                          <th>Rotten Tomatoes</th>
+                          <th>Metacritic</th>
+                          <th>Me</th>
+                        </tr>
+                        <tr>
+                          <td>7.4/10</td>
+                          <td>89%</td>
+                          <td>82%</td>
+                          <td>&#9733; &#9733; &#9733; &#9733; &#9734;</td>
+                        </tr>
+                    </table>
+                    <h3>Summary</h3>
+                    <p>Prince Amleth is on the verge of becoming a man when his father is brutally murdered by his uncle, 
+                        who kidnaps the boy's mother. Two decades later, Amleth is now a Viking who raids Slavic villages. 
+                        He soon meets a seeress who reminds him of his vow -- save his mother, kill his uncle, avenge his father.
+                    </p>
+                 </div>
+            </div>
+            <div class ="link"><a href="https://www.google.com/search?q=the+northman+showtimes">Where to watch?</a></div>
+          </div>
+          <footer><h2>&#x00A9; Copyright 2022 Favorite Movies of 2022 (so far) | All information sourced from Google front page search</h2></footer>
+      </section>
+</html>

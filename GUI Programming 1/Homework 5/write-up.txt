@@ -1,0 +1,14 @@
+Ethan Sourn
+ethan_sourn@student.uml.edu
+6/28/2022
+GUI Programming 1
+Homework 5
+
+At the moment the program is not fully implemented and doesn't work. What's implemented is simply the barebones html layout, the three images for the one-line scrabble w/o 
+any of its features, and not working code for the draggable feature. 
+
+As the semester neared the end I found less and less time to work on the projects and this being my last assignment for my last course I decided that turning it in as it was 
+better than the stressful crunchtime.
+
+GitHub Repo:
+GitHub URL: 

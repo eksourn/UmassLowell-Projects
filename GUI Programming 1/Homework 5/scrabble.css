@@ -1,0 +1,79 @@
+/**
+ * Ethan Sourn
+ * 6/28/2022
+ * GUI Programming 1
+ * Homework 5: Implementing a Bit of Scrabble with Drag-and-Drop (with Extra Credits)
+ * 
+ * 
+ * 
+ */
+html, body {
+    margin: 0;
+}
+/* Styling for the whole html page to make sure there isn't any hiddin padding/margin */
+html, body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+/* Define a grid container and their respective element positions */
+#grid-container {
+    display:grid;
+    grid-template-areas:  /* Page is partitioned in a 4x4 grid w/ these named sections  */
+    "header header header"
+    "main main main"
+    "holdr holdr holdr"
+    "score score score";
+    grid-template-rows: 50px 80px 273px 273px;
+    grid-gap: 10px;
+    position: relative;
+}
+/* Header div specific styling */
+#grid-container > header {
+    grid-area: header;  /* Header area takes up all of row 1 */
+}
+/* Header text */
+h1 {
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Footer div specific styling */
+#grid-container > footer {
+    grid-area: score;
+}
+/* Footer text */
+h2 {
+    text-align: center;
+    font-size: 15px;
+    color: black;
+    font-family: "Courier New", Courier, monospace; 
+}
+/* Center-main area */
+#main {
+    grid-area: main;
+    overflow: hidden;
+    position: relative;
+    background-image: url("graphics_data/Scrabble_Board_OneLine.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+/*  Rack styling */
+#rack {
+    grid-area: holdr;
+    background-image: url(graphics_data/scrabble-tile-holder.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    background-position: center center;
+}
+/* Styling for the fieldset which would eventually hold the score */
+fieldset {
+    background-color: #eeeeee;
+}
+/* Name of fieldset styling */
+legend {
+    color: black;
+    padding: 5px 10px;
+}

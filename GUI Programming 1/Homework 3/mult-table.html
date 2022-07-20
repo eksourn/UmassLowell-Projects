@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- 
+    Ethan Sourn
+    6/16/2022
+    GUI Programming 1
+    Homework 3: Creating an Interactive Dynamic Table
+
+    mult-table.html holds the web page and form content
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type='text/css' href="mult-table.css">
+        <script src="mult-table.js"></script>
+        <title>Dynamic Multiplaction Table</title>
+    </head>
+    <body>
+        <header><h1>Dynamic Multiplaction Table</h1></header>
+        <div id="main">
+            <!-- Form content -->
+            <div class="form">
+                <form name="myForm">
+                    <!-- Min col value -->
+                    <label for="min-col">Enter a mininum column value:</label>
+                    <input type="number" id="min-col" name="min-co" placeholder="1"><br><br>
+                    <!-- Max col value -->
+                    <label for="max-col">Enter a maximum column value:</label>
+                    <input type="number" id="max-col" name="max-col" placeholder="10"><br><br>
+                    <!-- Min row value -->
+                    <label for="min-row">Enter a mininum row value:</label>
+                    <input type="number" id="min-row" name="min-row" placeholder="1"><br><br>
+                    <!-- Max row value -->
+                    <label for="max-row">Enter a maximum row value:</label>
+                    <input type="number" id="max-row" name="max-row" placeholder="10"><br><br>
+                    <input type="submit" value="Generate table" onclick="return calculateTable()">
+                    <!-- This is where the table will be displayed -->
+                    <div id ="scrollable">
+                        <div id="mult_table"></div>
+                </div>
+            </div>
+                </form>
+            </div>
+            <!-- All error message divs here -->
+            <div id ="err-empty"></div>
+        </div>
+    </body>
+</html>

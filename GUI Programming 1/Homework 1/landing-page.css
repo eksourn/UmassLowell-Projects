@@ -1,0 +1,148 @@
+/*
+File: landing-page.css
+GUI Assignment: Set up, Github, and First Web Page
+Ethan Sourn, UMass Lowell Computer Science, ethan_sourn@student.uml.edu
+Copyright (C) 2022 by Ethan. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated on May 25, 2022 at 4:33 PM
+*/
+
+/* Styling for the whole html page to make sure there isn't any hiddin padding/margin */
+html, body {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+/* Define a grid container and their respective element positions */
+#grid-container {
+    display:grid;
+    grid-template-areas:  /* Page is partitioned in a 3x3 grid w/ these named sections  */
+    "header header header"
+    "left main right"
+    "footer footer footer";
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 10vh 85vh 5vh;
+    grid-gap: 10px;
+    position: relative;
+}
+/* Header div specific styling */
+#grid-container > header {
+    grid-area: header;  /* Header area takes up all of row 1 */
+    background-color: #282a35;
+    z-index: 5;
+}
+/* Header text */
+h1 {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+/* Footer div specific styling */
+#grid-container > footer {
+    grid-area: footer;  /* Footer area takes up all of row 3 */
+    background-color: #282a35;
+    z-index: 5;
+}
+/* Footer text */
+h2 {
+    text-align: center;
+    font-size: 15px;
+    color: white;
+    font-family: "Courier New", Courier, monospace; 
+}
+/* Center-main area */
+#main {
+    grid-area: main;  /* Row 2 Column 2 */
+    min-width: 12em;
+    background-color: rgba(40, 42, 53, 0.4);
+    overflow: hidden;
+    position: relative;
+}
+/* Center-left area */
+#left {
+    grid-area: left;  /* Row 2 Column 1 */
+    min-width: 12em;
+    background-color: rgba(40, 42, 53, 0.4);
+    overflow: hidden;
+    position: relative;
+}
+/* Center-right area */
+#right {
+    grid-area: right;  /* Row 2 Column 3 */
+    min-width: 12em;
+    background-color: rgba(40, 42, 53, 0.4);
+    overflow: hidden;
+    position: relative;
+}
+/* All img styling here */
+img {
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+}
+/* Div that holds all movie text content */
+.movie-text {
+    z-index: 1;
+    position: absolute;
+    padding: 10%;
+    color: white;
+    float: left;
+    display:block;
+}
+/* Div pertaining to inner contents from title to paragraph */
+.inner {
+    border-top: 2px solid whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    padding: 5%;
+}
+/* movie-text p tag specific styling */
+.movie-text p {
+    font-family: system-ui;
+}
+/* Transparent invisible button that is the size of the container div for each movie */
+button {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    z-index: 3;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+}
+/* movie-text div table styling */
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+/* Positioning for links */
+.link {
+    margin-top: 115%;
+    margin-left: 42%;
+}
+/* Link styling */
+a {
+    position: absolute;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: white;
+    color: darkslategrey;
+    z-index: 5;
+    border-top: 1px solid white;
+    border-right: 1px solid grey;
+    border-bottom: 1px solid grey;
+    border-left: 1px solid white;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 2px 6px 2px 6px;
+}
+/*  Specific styling for when link is hovered over by cursor */
+a:hover {
+    color: red;
+}

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<!-- 
+    Ethan Sourn
+    6/21/2022
+    GUI Programming 1
+    Homework 4: Using the jQuery Plugin/UI with Your Dynamic Table
+
+    mult-table.html holds the web page and form Nothing yet!
+    Added jQuery validate plugin and rules/messages to tailor error handling
+    Added slider widget and tabs widget
+-->
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type='text/css' href="mult-table.css">
+        <script src="mult-table.js"></script>
+        <!-- Slider CSS ref sheet -->
+        <link rel="stylesheet" type='text/css' href="dependencies/jquery-ui.css"></style>
+        <!-- jQuery CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <!-- jQuery UI Slider and Tab Wigets -->
+        <script src="dependencies/jquery-ui.min.js"></script>
+        <!-- jQuery validate plugin -->
+        <script src="dependencies/jquery.validate.js"></script>
+        <!-- Make tabs visible -->
+        <script>
+            $( function() {
+                $( "#tabs" ).tabs();
+            });
+        </script>
+        <title>Dynamic Multiplaction Table</title>
+    </head>
+    <body>
+        <header><h1>Dynamic Multiplaction Table</h1></header>
+        <div id="main">
+            <!-- Form Nothing yet! -->
+            <div class="form">
+                <form name="myForm" id="myForm" method="post" action="">
+                    <!-- Min col value -->
+                    <label for="minCol">Enter a mininum column value:</label>
+                    <input type="number" id="minCol" name="minCol" autocomplete=off><br><br>
+                    <div id="mincSlider"></div><br>
+                    <!-- Max col value -->
+                    <label for="maxCol">Enter a maximum column value:</label>
+                    <input type="number" id="maxCol" name="maxCol" autocomplete=off><br><br>
+                    <div id="maxcSlider"></div><br>
+                    <!-- Min row value -->
+                    <label for="minRow">Enter a mininum row value:</label>
+                    <input type="number" id="minRow" name="minRow" autocomplete=off><br><br>
+                    <div id="minrSlider"></div><br>
+                    <!-- Max row value -->
+                    <label for="maxRow">Enter a maximum row value:</label>
+                    <input type="number" id="maxRow" name="maxRow" autocomplete=off><br><br>
+                    <div id="maxrSlider"></div><br>
+                    <input type="submit" value="Save table" onclick="saveCurrTab()">
+                    <!-- This is where the table will be displayed -->
+                    <div id ="scrollable">
+                        <div id="mult_table"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!-- Tabs are stored here-->
+        <div id="tabs">
+            <ul>
+            </ul>
+        </div>
+        <script>
+            //  Unique rules and messages for validation
+            //  Referenced https://jqueryvalidation.org/ video and documentation
+            $(document).ready(function() {
+                $("#myForm").validate({
+                    rules: {
+                        //  Setting an object instead of string true allows properties and methods
+                        minCol: {
+                            required: true,  //  Required to submit form
+                            number: true,    //  Must be a valid number, positive and negative are fine
+                            min: -100,       //  Must be greater than or equal to -100
+                            max: 100         //  "     " less than or equal to 100
+                        },
+                        maxCol: {
+                            required: true,
+                            number: true,
+                            min: -100,
+                            max: 100
+                        },
+                        minRow: {
+                            required: true,
+                            number: true,
+                            min: -100,
+                            max: 100
+                        },
+                        maxRow: {
+                            required: true,
+                            number: true,
+                            min: -100,
+                            max: 100
+                        }
+                    },
+                    //  Customized error messages to help indicate fixes
+                    messages: {
+                        minCol: {
+                            required: "<br>Please enter a number.",
+                            number: "<br>Please enter a valid number only.",
+                            min: "<br>Please enter a number greater than or equal to -100.",
+                            max: "<br>Please enter a number less than or equal to 100"
+                        },
+                        maxCol: {
+                            required: "<br>Please enter a number.",
+                            number: "<br>Please enter a valid number only.",
+                            min: "<br>Please enter a number greater than or equal to -100.",
+                            max: "<br>Please enter a number less than or equal to 100"
+                        },
+                        minRow: {
+                            required: "<br>Please enter a number.",
+                            number: "<br>Please enter a valid number only.",
+                            min: "<br>Please enter a number greater than or equal to -100.",
+                            max: "<br>Please enter a number less than or equal to 100"
+                        },
+                        maxRow: {
+                            required: "<br>Please enter a number.",
+                            number: "<br>Please enter a valid number only.",
+                            min: "<br>Please enter a number greater than or equal to -100.",
+                            max: "<br>Please enter a number less than or equal to 100"
+                        }
+                    },
+                    //  Added a submitHandler to call the function and replaced the onsubmit in the form attributes
+                    //  Referenced from https://stackoverflow.com/questions/30720354/jquery-validate-submithandler-not-firing
+                    submitHandler: function() {
+                        calculateTable();
+                        return false;
+                    }
+                });
+                slider();   //  Call slider function
+                
+            });
+            </script>
+    </body>
+</html>

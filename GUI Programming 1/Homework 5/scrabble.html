@@ -1,0 +1,44 @@
+<!-- 
+    Ethan Sourn
+    6/28/2022
+    GUI Programming 1
+    Homework 5: Implementing a Bit of Scrabble with Drag-and-Drop (with Extra Credits)
+
+    Features: Currently incomplete, contains barebones html for a skeleton layout via Grid layout method
+-->
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+      <meta charset="utf-8">
+      <title>Scrabble!</title>
+      <section id="grid-container">
+          <header><h1>Scrabble!</h1></header>
+          <div id="main">
+          </div>
+          <div id="rack">
+            <div class="tile">Tile Test</div>
+            <div id="blank_tile">blank tile Test</div><br><br>
+            <div id="dbl_wrd_score">double wrd Test</div><br><br>
+            <div id="dbl_ltr_score">double letter Test</div><br><br>
+          </div>
+          <footer>
+            <fieldset>
+                <legend>Score:</legend>
+            </fieldset>
+          </footer>
+      </section>
+      <link rel="stylesheet" type='text/css' href="scrabble.css">
+      <script src="scrabble.js"></script>
+      <!-- Slider CSS ref sheet -->
+      <link rel="stylesheet" type='text/css' href="dependencies/jquery-ui.css"></style>
+      <script src="pieces.js"></script>
+      <!-- jQuery CDN -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+      <script>
+        $(document).ready(function() {
+            generateSources();
+            generateTargets();
+        });
+      </script>
+</html>

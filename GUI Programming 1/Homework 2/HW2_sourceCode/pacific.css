@@ -1,0 +1,101 @@
+/*
+File: pacific.css
+GUI Assignment: Style a Site with External Css
+Ethan Sourn, UMass Lowell Computer Science, ethan_sourn@student.uml.edu
+Copyright (C) 2022 by Ethan. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated on May 31, 2022 at 2:34 PM
+*/
+
+header, hgroup, nav, footer, figure, figcaption, aside, section, article {
+	display: block;
+}
+body {
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	/* Added */
+	background-image: url('ptrbackground.jpg');
+}
+/* Added */
+body:before {
+	background-color: #00569f;
+}
+nav ul {
+	font-size: 1.2em;
+	/* Added */
+	list-style: none;
+	font-weight: bold;
+	color: black;
+	padding: 20px;
+	margin-top: 0px;
+}
+nav a:visited {
+	color: #344873;
+}
+nav a:hover {
+	color: #FFFFFF;
+}
+h1 {
+	margin-bottom: 0;
+	padding: 10px;
+}
+h2 {
+	color: #3399CC;
+}
+h1,
+h2 {
+	font-family: Georgia, "Times New Roman", serif;
+}
+dt {
+	color: #000033;
+}
+footer {
+	font-family: Georgia, "Times New Roman", serif;
+	/* Added */
+	font-style: italic;
+	display: inline-block;
+	margin-left: 40px;
+	font-size: 15px;
+}
+/* Everything below was added */
+header {
+	background-color: #000032;
+	background-image: url("sunset.jpg");
+	background-position: right;
+	background-repeat: no-repeat;
+	width: 100%;
+	color: white;
+}
+#content {
+	padding: 30px;
+	margin-left: 170px;
+}
+nav a:link {
+	text-decoration: none;
+	color: black;
+}
+#content li {
+	list-style-image: url('marker.gif');
+}
+.resort {
+	color: #3399CC;
+	font-weight: bold;
+}
+nav {
+	float: left;
+	height: 100vh;
+	background-color: skyblue;
+}
+img {
+	float: left;
+	margin-right: 30px;
+}
+.contact {
+	float: left;
+}
+#wrapper {
+	background-color: white;
+	width: 80%;
+	min-width: 600px;
+	margin: auto;
+}

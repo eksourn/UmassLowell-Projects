@@ -1,0 +1,95 @@
+/**
+ * Ethan Sourn
+ * 6/16/2022
+ * GUI Programming 1
+ * Homework 3: Creating an Interactive Dynamic Table
+ * 
+ * mult-table.css holds all css stylings used to decorate the page
+
+/* Remove defaults spacing */
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: rgba(218, 223, 225, 1);
+}
+#main {
+    margin: auto;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 25%;
+}
+header {
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -25px;
+    width: 50%;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #4CAF50;
+}
+div.form {
+    display: block;
+    text-align: center;
+}
+.form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+input {
+    width: 15%;
+}
+input[type=submit] {
+    width: 100%;
+    background-color: #2d742f;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+table {
+    margin: auto;
+    text-align: center;
+}
+th, td {
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    padding: 5px;
+}
+table tr:first-of-type {
+    background-color: #3A5743;
+    color: white;
+}
+tr:nth-child(even) {
+    background-color: #64997562;
+}
+table.mult_table > tbody > tr > td:nth-last-of-type(1) {
+    background-color: #3A5743;
+    color: white;
+}
+td:hover {
+    background-color: lightgray;
+}
+#err-empty {
+    text-align: center;
+    color: red;
+}
+#err-outofrange {
+    text-align: center;
+    color: red;
+}
+#scrollable {
+    overflow:auto;
+    height: 350px;
+}
