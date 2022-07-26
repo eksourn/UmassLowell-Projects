@@ -3,5 +3,8 @@ Ethan Sourn
 GUI Programming 1
 Homework 3: Creating an Interactive Dynamic Table
 
+As of this moment the assignment is nearly complete.  
+  
+For this assignment we were asked to create a table that would dynamically update itself whenever new values are given.
+
 Github URL: https://eksourn.github.io/HW3/mult-table.html
-Github Repo: https://github.com/eksourn/HW3/tree/gh-pages
