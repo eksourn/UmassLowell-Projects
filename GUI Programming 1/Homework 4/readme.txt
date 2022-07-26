@@ -10,5 +10,6 @@ This assignment had us expand on homework 3. Here we had to implement jQuery val
 we had to test for included invalid characters being submitted, empty form fields, and out of range values each with their own detailed error message (that  
 couldn't be alerts). There were sliders for each of the submission fields that when manipulated dynamically updated the table on screen. For the widget we had  
 to essentially save a snapshot of outputted table in a separate "tabs".  
+  
 At the moment there are some issues such as not being able to delete the tabs individually or all together, alongside some issues that I had before in the   
 previous iteration where the top table header repeated itself.
