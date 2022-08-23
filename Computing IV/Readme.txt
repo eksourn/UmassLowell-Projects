@@ -1,9 +1,6 @@
 Here is a collection of homework/projects for COMP.2040/Computing IV. See final portfolio for breakdown, sample code, and output of each assignment.
 
 # Quick Summary
-## PS0 - Hello World with SFML
-  Introductory assignment using C++ and SFML library to create unique features with image sprites.
-
 ## PS1a/PS1b - Linear Feedback Shift Register
   Two part assignment that had use simulate an LFSR and encrypt digital pictures. This assignment also introduced error checking with the BOOST Test Framework.
   
