@@ -1,0 +1,120 @@
+Startup on line: 4
+Timestamp: 2013-10-02 18:42:38
+FAILURE
+
+Startup on line: 112
+Timestamp: 2013-10-02 18:45:23
+SUCCESS, duration: 165000ms 
+
+Startup on line: 747
+Timestamp: 2013-10-03 12:23:21
+FAILURE
+
+Startup on line: 855
+Timestamp: 2013-10-03 12:26:15
+SUCCESS, duration: 174000ms 
+
+Startup on line: 1459
+Timestamp: 2013-10-04 16:20:03
+FAILURE
+
+Startup on line: 1568
+Timestamp: 2013-10-04 16:23:06
+SUCCESS, duration: 183000ms 
+
+Startup on line: 31848
+Timestamp: 2013-12-03 16:21:13
+FAILURE
+
+Startup on line: 31956
+Timestamp: 2013-12-03 16:24:08
+SUCCESS, duration: 175000ms 
+
+Startup on line: 32789
+Timestamp: 2013-12-04 21:50:27
+FAILURE
+
+Startup on line: 33032
+Timestamp: 2013-12-04 21:52:57
+SUCCESS, duration: 150000ms 
+
+Startup on line: 33145
+Timestamp: 2013-12-04 21:58:45
+FAILURE
+
+Startup on line: 33390
+Timestamp: 2013-12-04 22:01:14
+SUCCESS, duration: 149000ms 
+
+Startup on line: 33677
+Timestamp: 2013-12-04 22:21:03
+FAILURE
+
+Startup on line: 33920
+Timestamp: 2013-12-04 22:23:31
+SUCCESS, duration: 148000ms 
+
+Startup on line: 45295
+Timestamp: 2013-12-05 13:34:25
+FAILURE
+
+Startup on line: 45538
+Timestamp: 2013-12-05 13:36:55
+SUCCESS, duration: 150000ms 
+
+Startup on line: 45615
+Timestamp: 2013-12-05 14:12:25
+FAILURE
+
+Startup on line: 45858
+Timestamp: 2013-12-05 14:14:53
+SUCCESS, duration: 148000ms 
+
+Startup on line: 46117
+Timestamp: 2013-12-05 15:39:02
+FAILURE
+
+Startup on line: 46353
+Timestamp: 2013-12-05 15:41:29
+SUCCESS, duration: 147000ms 
+
+Startup on line: 46357
+Timestamp: 2013-12-05 20:20:24
+FAILURE
+
+Startup on line: 46600
+Timestamp: 2013-12-05 20:22:54
+SUCCESS, duration: 150000ms 
+
+Startup on line: 46792
+Timestamp: 2013-12-10 13:20:43
+FAILURE
+
+Startup on line: 47035
+Timestamp: 2013-12-10 13:23:12
+SUCCESS, duration: 149000ms 
+
+Startup on line: 47700
+Timestamp: 2013-12-10 19:40:58
+FAILURE
+
+Startup on line: 47991
+Timestamp: 2013-12-10 19:43:55
+SUCCESS, duration: 177000ms 
+
+Startup on line: 48100
+Timestamp: 2013-12-11 14:09:11
+FAILURE
+
+Startup on line: 48341
+Timestamp: 2013-12-11 14:11:41
+SUCCESS, duration: 150000ms 
+
+Startup on line: 48345
+Timestamp: 2013-12-11 14:17:49
+FAILURE
+
+Startup on line: 48636
+Timestamp: 2013-12-11 14:20:46
+SUCCESS, duration: 177000ms 
+

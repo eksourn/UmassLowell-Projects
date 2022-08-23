@@ -1,0 +1,140 @@
+Startup on line: 31063
+Timestamp: 2014-01-26 09:55:07
+FAILURE
+
+Startup on line: 31176
+Timestamp: 2014-01-26 09:58:04
+SUCCESS, duration: 177000ms 
+
+Startup on line: 31274
+Timestamp: 2014-01-26 12:15:18
+FAILURE
+
+Startup on line: 31293
+Timestamp: 2014-01-26 14:02:39
+FAILURE
+
+Startup on line: 31401
+Timestamp: 2014-01-26 14:05:24
+SUCCESS, duration: 165000ms 
+
+Startup on line: 32623
+Timestamp: 2014-01-27 12:27:55
+FAILURE
+
+Startup on line: 32641
+Timestamp: 2014-01-27 12:30:23
+FAILURE
+
+Startup on line: 32656
+Timestamp: 2014-01-27 12:32:51
+FAILURE
+
+Startup on line: 32674
+Timestamp: 2014-01-27 12:35:19
+FAILURE
+
+Startup on line: 32693
+Timestamp: 2014-01-27 14:02:38
+FAILURE
+
+Startup on line: 32801
+Timestamp: 2014-01-27 14:05:21
+SUCCESS, duration: 163000ms 
+
+Startup on line: 33709
+Timestamp: 2014-01-28 12:44:17
+FAILURE
+
+Startup on line: 33725
+Timestamp: 2014-01-28 14:02:33
+FAILURE
+
+Startup on line: 33833
+Timestamp: 2014-01-28 14:05:15
+SUCCESS, duration: 162000ms 
+
+Startup on line: 34594
+Timestamp: 2014-01-29 12:43:07
+FAILURE
+
+Startup on line: 34613
+Timestamp: 2014-01-29 14:02:35
+FAILURE
+
+Startup on line: 34721
+Timestamp: 2014-01-29 14:05:19
+SUCCESS, duration: 164000ms 
+
+Startup on line: 37428
+Timestamp: 2014-01-30 12:43:05
+FAILURE
+
+Startup on line: 37447
+Timestamp: 2014-01-30 14:02:40
+FAILURE
+
+Startup on line: 37555
+Timestamp: 2014-01-30 14:05:22
+SUCCESS, duration: 162000ms 
+
+Startup on line: 38258
+Timestamp: 2014-01-31 14:02:33
+FAILURE
+
+Startup on line: 38366
+Timestamp: 2014-01-31 14:05:16
+SUCCESS, duration: 163000ms 
+
+Startup on line: 39150
+Timestamp: 2014-02-01 12:39:38
+FAILURE
+
+Startup on line: 39166
+Timestamp: 2014-02-01 12:42:07
+FAILURE
+
+Startup on line: 39182
+Timestamp: 2014-02-01 14:02:32
+FAILURE
+
+Startup on line: 39290
+Timestamp: 2014-02-01 14:05:16
+SUCCESS, duration: 164000ms 
+
+Startup on line: 40288
+Timestamp: 2014-02-02 14:02:39
+FAILURE
+
+Startup on line: 40397
+Timestamp: 2014-02-02 14:05:31
+SUCCESS, duration: 172000ms 
+
+Startup on line: 41615
+Timestamp: 2014-02-03 12:35:55
+FAILURE
+
+Startup on line: 41633
+Timestamp: 2014-02-03 12:38:22
+FAILURE
+
+Startup on line: 41648
+Timestamp: 2014-02-03 12:40:48
+FAILURE
+
+Startup on line: 41666
+Timestamp: 2014-02-03 12:43:17
+FAILURE
+
+Startup on line: 41684
+Timestamp: 2014-02-03 12:45:46
+FAILURE
+
+Startup on line: 41694
+Timestamp: 2014-02-03 14:02:34
+FAILURE
+
+Startup on line: 41802
+Timestamp: 2014-02-03 14:05:18
+SUCCESS, duration: 164000ms 
+

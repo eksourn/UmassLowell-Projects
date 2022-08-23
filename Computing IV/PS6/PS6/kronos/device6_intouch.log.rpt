@@ -1,0 +1,104 @@
+Startup on line: 2
+Timestamp: 2014-04-03 20:27:48
+FAILURE
+
+Startup on line: 161
+Timestamp: 2014-04-03 20:31:01
+SUCCESS, duration: 193000ms 
+
+Startup on line: 82079
+Timestamp: 2014-04-09 14:51:15
+FAILURE
+
+Startup on line: 82303
+Timestamp: 2014-04-09 14:54:39
+SUCCESS, duration: 204000ms 
+
+Startup on line: 85398
+Timestamp: 2014-04-10 18:13:13
+FAILURE
+
+Startup on line: 85564
+Timestamp: 2014-04-10 18:16:37
+SUCCESS, duration: 204000ms 
+
+Startup on line: 85957
+Timestamp: 2014-04-10 19:11:05
+FAILURE
+
+Startup on line: 86123
+Timestamp: 2014-04-10 19:14:24
+SUCCESS, duration: 199000ms 
+
+Startup on line: 86127
+Timestamp: 2014-04-10 19:18:36
+FAILURE
+
+Startup on line: 86293
+Timestamp: 2014-04-10 19:21:56
+SUCCESS, duration: 200000ms 
+
+Startup on line: 86568
+Timestamp: 2014-04-10 19:32:16
+FAILURE
+
+Startup on line: 86732
+Timestamp: 2014-04-10 19:35:36
+SUCCESS, duration: 200000ms 
+
+Startup on line: 86750
+Timestamp: 2014-04-10 20:06:27
+FAILURE
+
+Startup on line: 86821
+Timestamp: 2014-04-10 20:09:07
+SUCCESS, duration: 160000ms 
+
+Startup on line: 86939
+Timestamp: 2014-04-11 00:15:56
+FAILURE
+
+Startup on line: 87111
+Timestamp: 2014-04-11 00:18:49
+SUCCESS, duration: 173000ms 
+
+Startup on line: 87116
+Timestamp: 2014-04-11 13:28:25
+FAILURE
+
+Startup on line: 87286
+Timestamp: 2014-04-11 13:31:12
+SUCCESS, duration: 167000ms 
+
+Startup on line: 87836
+Timestamp: 2014-04-11 13:58:02
+FAILURE
+
+Startup on line: 88009
+Timestamp: 2014-04-11 14:00:49
+SUCCESS, duration: 167000ms 
+
+Startup on line: 88983
+Timestamp: 2014-04-11 14:23:42
+FAILURE
+
+Startup on line: 89155
+Timestamp: 2014-04-11 14:26:31
+SUCCESS, duration: 169000ms 
+
+Startup on line: 90112
+Timestamp: 2014-04-14 12:13:59
+FAILURE
+
+Startup on line: 90135
+Timestamp: 2014-04-14 12:16:13
+FAILURE
+
+Startup on line: 90176
+Timestamp: 2014-04-14 12:18:44
+FAILURE
+
+Startup on line: 90307
+Timestamp: 2014-04-14 12:21:25
+SUCCESS, duration: 161000ms 
+

@@ -1,0 +1,48 @@
+Startup on line: 435369
+Timestamp: 2014-03-25 19:11:59
+FAILURE
+
+Startup on line: 435759
+Timestamp: 2014-03-25 19:15:02
+SUCCESS, duration: 183000ms 
+
+Startup on line: 436500
+Timestamp: 2014-03-25 19:29:59
+FAILURE
+
+Startup on line: 436859
+Timestamp: 2014-03-25 19:32:44
+SUCCESS, duration: 165000ms 
+
+Startup on line: 440719
+Timestamp: 2014-03-25 22:01:46
+FAILURE
+
+Startup on line: 440791
+Timestamp: 2014-03-25 22:04:27
+SUCCESS, duration: 161000ms 
+
+Startup on line: 440866
+Timestamp: 2014-03-26 12:47:42
+FAILURE
+
+Startup on line: 441216
+Timestamp: 2014-03-26 12:50:29
+SUCCESS, duration: 167000ms 
+
+Startup on line: 442094
+Timestamp: 2014-03-26 20:41:34
+FAILURE
+
+Startup on line: 442432
+Timestamp: 2014-03-26 20:44:13
+SUCCESS, duration: 159000ms 
+
+Startup on line: 443073
+Timestamp: 2014-03-27 14:09:01
+FAILURE
+
+Startup on line: 443411
+Timestamp: 2014-03-27 14:11:42
+SUCCESS, duration: 161000ms 
+
