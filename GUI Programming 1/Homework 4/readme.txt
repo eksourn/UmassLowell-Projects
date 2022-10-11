@@ -3,8 +3,8 @@ Ethan Sourn
 GUI Programming 1
 Homework 4: Using the jQuery Plugin/UI w/ Your Dynamic Table 
 
-Previous version: https://eksourn.github.io/HW3/mult-table.html  
-Newest version: https://eksourn.github.io/HW4/mult-table.html  
+Previous version: https://eksourn.github.io/UmassLowell-Projects/GUI%20Programming%201/Homework%203/mult-table.html  
+Newest version: https://eksourn.github.io/UmassLowell-Projects/GUI%20Programming%201/Homework%204/mult-table.html 
   
 This assignment had us expand on homework 3. Here we had to implement jQuery validation plugin, sliders, and widgets into the dynamic table. Some of the things  
 we had to test for included invalid characters being submitted, empty form fields, and out of range values each with their own detailed error message (that  
