@@ -9,4 +9,4 @@ table headers being repeated.
 For this assignment we were asked to create a table that would dynamically update itself whenever new values are given w/o refreshing the page. This was my  
 first time working with Javascript and so there are some bugs.
 
-Github URL: https://eksourn.github.io/HW3/mult-table.html
+Github URL: https://eksourn.github.io/UmassLowell-Projects/GUI%20Programming%201/Homework%203/mult-table.html
